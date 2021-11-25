@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1E3231;
+  text-align: -webkit-center;
+  padding: 15vh 5vw;
+  display: flex;
+  min-width: 300px;
+  flex-flow: column;
+  align-items: center;
+}
+
+.quote-mark {
+  color: #EE6C4D;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.text {
+  color: white;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.author {
+  font-weight: bold;
+  color: #EE6C4D;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+
+.quote {
+  padding: 20px;
+  min-width: 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+button {
+  padding: 3vh 5vw;
+  color: white;
+  margin-top: 20px;
+  background: #EE6C4D;
+  font-family: monospace;
+  border: none;
+}

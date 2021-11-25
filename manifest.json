@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Random motivation",
+  "version": "1.0",
+  "description": "Motivational quotes when you feel down",
+  "icons": {
+    "128": "img/extension-icon.png",
+    "48": "img/extension-icon.png",
+    "16": "img/extension-icon.png"
+  },
+  "browser_action": {
+    "default_icon": "img/extension-icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
